@@ -1,0 +1,36 @@
+.navbar {
+   margin: -10px auto 0 auto;
+   justify-content: center;
+   display: flex;
+   padding: 20px 0;
+   background-color: #222;
+}
+.navbar h2 {
+   text-align: center;
+   width: 150px;
+   font-weight: 800;
+   font-size: 20px;
+   cursor: pointer;
+}
+.navbar a {
+   text-decoration: none;
+   border: 2px rgba(255,255,255,0.5) solid;
+   transition: all 0.1s linear;
+   color: white;
+   margin: 0 10px;
+}
+.fade-in {
+   background-color: #61DAFB;
+   color: #222;
+   transition: background-color 300ms ease-out;
+}
+.fade-out {
+   background-color: #222;
+}
+
+@media(max-width: 768px) {
+   .navbar h2 {
+      width: 50px;
+      font-size: 12px;
+   }
+}
